@@ -1,4 +1,4 @@
-public class MinimumSwapsInAscending {
+public class MinimumSwapsInAsc {
 
     static int minimumSwaps(int[] arr) {
         int length = arr.length;

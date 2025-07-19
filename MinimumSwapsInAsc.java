@@ -1,3 +1,5 @@
+package hackerrank;
+
 public class MinimumSwapsInAsc {
 
     static int minimumSwaps(int[] arr) {

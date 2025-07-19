@@ -1,3 +1,5 @@
+package hackerrank;
+
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -12,7 +14,7 @@ public class NewYearChaos {
             for (int j = i; j < q.size() - 1; j++) {
                 int count = 1;
                 if (q.get(i) > q.get(j + 1)) {
-                    if(countMap.containsKey(q.get(i))){
+                    if (countMap.containsKey(q.get(i))) {
                         countMap.replace(q.get(i), countMap.get(q.get(i)) + 1);
                     } else {
                         countMap.put(q.get(i), count);
@@ -29,4 +31,5 @@ public class NewYearChaos {
             System.out.println(countMap.values().stream().mapToInt(Integer::intValue).sum());
         }
 
+    }
 }

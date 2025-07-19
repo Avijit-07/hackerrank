@@ -1,3 +1,5 @@
+package hackerrank;
+
 public class StringTokens {
     public static void main(String[] args) {
         String s = null;

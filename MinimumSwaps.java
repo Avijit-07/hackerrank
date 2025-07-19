@@ -1,4 +1,4 @@
-package com.avijit.practice.test;
+package hackerrank;
 
 public class MinimumSwaps {
 

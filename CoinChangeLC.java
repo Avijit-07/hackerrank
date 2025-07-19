@@ -1,3 +1,5 @@
+package hackerrank;
+
 public class CoinChangeLC {
     
     public static int coinChange( int n, int[] coins, int[] dp) {

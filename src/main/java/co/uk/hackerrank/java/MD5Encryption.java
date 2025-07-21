@@ -1,4 +1,4 @@
-package hackerrank;
+package co.uk.hackerrank.java;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;

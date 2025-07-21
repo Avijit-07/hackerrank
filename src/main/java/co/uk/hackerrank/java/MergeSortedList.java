@@ -1,4 +1,4 @@
-package hackerrank;
+package co.uk.hackerrank.java;
 
 /**
  * Definition for singly-linked list.

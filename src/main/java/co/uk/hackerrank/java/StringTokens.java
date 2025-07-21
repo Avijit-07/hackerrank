@@ -1,4 +1,4 @@
-package hackerrank;
+package co.uk.hackerrank.java;
 
 public class StringTokens {
     public static void main(String[] args) {

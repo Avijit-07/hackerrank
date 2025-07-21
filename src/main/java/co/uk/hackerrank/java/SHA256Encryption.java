@@ -1,4 +1,4 @@
-package hackerrank;
+package co.uk.hackerrank.java;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;

@@ -1,4 +1,4 @@
-package hackerrank;
+package co.uk.hackerrank.java;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

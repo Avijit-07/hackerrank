@@ -1,4 +1,4 @@
-package hackerrank;
+package co.uk.hackerrank.java;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package hackerrank;
+package co.uk.hackerrank.java;
 
 public class ContinuousSubarrayLC {
     public static void main(String[] args) {

@@ -1,5 +1,8 @@
-package co.uk.hackerrank.java;
+package leetcode;
 
+/**
+    TBD
+ */
 public class CoinChangeLC {
     
     public static int coinChange( int n, int[] coins, int[] dp) {

@@ -1,5 +1,8 @@
-package co.uk.hackerrank.java;
+package leetcode;
 
+/**
+    TBD
+ */
 public class ContinuousSubarrayLC {
     public static void main(String[] args) {
         System.out.println(checkSubarraySum(new int[] { 23, 2, 6, 4, 7 }, 6));

@@ -4,38 +4,20 @@ public class PathSum {
 
     public static boolean hasPathSum(TreeNode root, int targetSum) {
 
-        int totalSum = 0;
-        boolean result = false;
-
-        if(root == null)
-            return false;
-
-        traverse(root, totalSum, targetSum, result); // 5
-
-        return result;
-
+        return traverse(root, targetSum);
     }
 
-    public static void traverse(TreeNode node, int sum, int targetSum, boolean result) {
-        sum = sum + node.val;
+    public static boolean traverse(TreeNode node, int targetSum) {
+        if (node == null)
+            return false;
 
         if (node.left == null && node.right == null) {
-            if (sum == targetSum) {
-                result = true;
-                return;
-            }
-            else
-                sum = sum - node.val;
-            return;
+            if (node.val == targetSum)
+                return true;
         }
 
-        if (node.left != null) // 7
-            traverse(node.left, sum, targetSum, result); // 7, 20
-
-
-
-        if (node.right != null)
-            traverse(node.right, sum, targetSum, result);
+        return traverse(node.left, targetSum - node.val) ||
+                traverse(node.right, targetSum - node.val);
 
     }
 
@@ -60,8 +42,14 @@ class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
-    TreeNode() {}
-    TreeNode(int val) { this.val = val; }
+
+    TreeNode() {
+    }
+
+    TreeNode(int val) {
+        this.val = val;
+    }
+
     TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
